@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int counter = 0, column;
+
+    while(counter < 3){
+        column = 0;
+
+        while(column < 6){ 
+        printf("*");
+        column++;
+    }
+        printf("\n");
+        counter++;
+    }
+
+    return 0;
+}
